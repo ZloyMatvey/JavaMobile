@@ -7,9 +7,9 @@ public class Main {
         if (sum <= 1000) {
             System.out.println("Ваш баланс = " + (balans + sum));
         } else {
-            int b = sum / a;
-            System.out.println("Поздравляю! вы получили " + b + " бонусов");
-            System.out.println("Ваш баланс = " + (balans + sum + b));
+            int bonus = sum / a;
+            System.out.println("Поздравляю! вы получили " + bonus + " бонусов");
+            System.out.println("Ваш баланс = " + (balans + sum + bonus));
         }
     }
 }
